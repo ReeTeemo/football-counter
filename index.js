@@ -32,9 +32,11 @@ function decreaseAwayScoreOne(){
     awayScoreEl.textContent = awayScore
 }
 
-document.getElementById("resetBtn").onclick = 
+document.getElementById("resetBtn").onclick =
 
 function(){
-    count=0
-    document.getElementById("home-score").innerHTML = count
+    homeScore=0
+    homeScoreEl.innerHTML = home-Score
+    awayScore=0
+    awayScoreEl.innerHTML = awayScore
 }
