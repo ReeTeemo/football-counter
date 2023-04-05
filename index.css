@@ -1,0 +1,73 @@
+body {
+    margin: 0;
+    text-align: center;
+    position: fixed;
+    background-image: url("footballstadium.avif");
+    background-size: auto;    
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    margin: 20px 100px 20px 100px;
+    background: #1B244A;
+    color: #9AABD8;
+    border: 3px solid #0EA5E9;
+    border-radius: 5px;
+}
+
+.homeaway {
+    font-weight: 700;
+    font: 40px bold;
+    margin: 30 0 -10 0;
+    font: Verdana;
+    text-shadow: -3px 2px black;
+
+}
+
+.score {
+    background: #0a0001;
+    font-size: 90px;
+    font-weight: 400;
+    color: #F94F6D;
+    width: 120px;
+    margin: 20px;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    line-height: 126px;
+    padding: 10px 30px 0;
+}
+
+.scorebtn {
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+    background: none;
+    color: #9AABD8;
+    width: 45px;
+    height: 45px;
+    font-size: 15px;
+    cursor: pointer;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    margin: 10px 3px 30px 3px;
+
+}
+
+.scorebtn:hover {
+    font-size: 20px;
+    box-shadow: 0px 0px 5px #9AABD8;
+    transition: all ease-in .1s;
+}
+
+#resetBtn{
+    display: flex;
+    justify-content: bottom;
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+    margin: 10px 0 30px 0;
+    background: none;
+    color: #9AABD8;
+    width: 120px;
+    height: 45px;
+    cursor: pointer;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    font-size: 20px;
+}
