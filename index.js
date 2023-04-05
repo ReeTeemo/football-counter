@@ -36,7 +36,7 @@ document.getElementById("resetBtn").onclick =
 
 function(){
     homeScore=0
-    homeScoreEl.innerHTML = home-Score
+    homeScoreEl.innerHTML = homeScore
     awayScore=0
     awayScoreEl.innerHTML = awayScore
 }
